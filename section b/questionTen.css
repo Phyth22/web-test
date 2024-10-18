@@ -1,0 +1,30 @@
+/* Set the width of all input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 300px;
+    margin: 10px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Add margin to radio buttons and labels */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
